@@ -164,7 +164,7 @@ a{
   object-fit: cover;
 }
  .btn {
-
+  display:inline-block;
   margin-left:20px;
    margin-top:20px;
   padding: 10px 18px;
@@ -211,5 +211,7 @@ a{
   margin-top:20px;
   flex:none;
 }
-
+.btn:hover{
+background-color:#444;
+}
 }
